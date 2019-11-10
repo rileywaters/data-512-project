@@ -51,11 +51,11 @@ The project does not depend on external parties, so I do not anticipate delays i
 
 I am interested in general trends pertaining to the density of communities and the people living there. Below are some of my questions:
 
--	_How do construction trends differ by community?
--	_What construction trends are occurring on the city-level?
--	_What vacancy trends are there across communities?
--	_How do demographics differ by community?
--	_How has community density and population changed over time?
+-	_How do construction trends differ by community?_
+-	_What construction trends are occurring on the city-level?_
+-	_What vacancy trends are there across communities?_
+-	_How do demographics differ by community?_
+-	_How has community density and population changed over time?_
 
 I would like to explore and visualize this data geographically to answer these questions. From my own observations, I can hypothesize that certain communities are being rapidly built-up due to re-zoning, new transit lines/ring roads, or proximity to emerging industry districts. There may be resistance to zoning around affluent areas. I am also curious to see how single-family home construction is affected by the densification efforts of the city.
 
@@ -63,8 +63,8 @@ From the time-series data I have a hypothesis that construction in Calgary relat
 
 As this is a human-centered data analysis, I also have questions I would like to answer about the dataset itself:
 
--	_Could individual or family units data be compromised despite the aggregated nature of the data?
--	_Could the inclusion of certain demographic data be used in unethical ways?
+-	_Could individual or family units data be compromised despite the aggregated nature of the data?_
+-	_Could the inclusion of certain demographic data be used in unethical ways?_
 
 The data contains counts of all kinds of people: Voters, preschool children, employed/unemployed people, homeowners, and even information on pets. The data is aggregated to a community level, but my hypothesis is that there are enough fields, and some districts are small enough, to present privacy risk. I will investigate if the publishing of this dataset could present an ethical problem and if it could be combined with other datasets for malicious purposes. If so, I will take directive to inform the City of Calgary without making public how this could be done.
 
