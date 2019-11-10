@@ -29,7 +29,7 @@ It has 306 rows, each representing a community district within the city. It has 
 
 From the descriptions alone I can see several potential ethical concerns which I outline in the research questions section. 
 
-To compare to previous years, I plan to use the [Civic Census Results 1958-2019](https://data.calgary.ca/Demographics/Civic-Census-Results-1958-2019/rmai-qvzh)Civic Census Results 1958-2019 dataset. This set is under the same license as the previous one and is also made available by the Calgary Open Data portal. It has 8 columns and 701 rows with information on “citywide and ward-level counts of dwelling units and residents over the past 60 years”. The columns of interest to me in this set are as follows:
+To compare to previous years, I plan to use the [Civic Census Results 1958-2019](https://data.calgary.ca/Demographics/Civic-Census-Results-1958-2019/rmai-qvzh) dataset. This set is under the same license as the previous one and is also made available by the Calgary Open Data portal. It has 8 columns and 701 rows with information on “citywide and ward-level counts of dwelling units and residents over the past 60 years”. The columns of interest to me in this set are as follows:
 
 | Column | Description  |  
 |---|---|
