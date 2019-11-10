@@ -41,11 +41,11 @@ To compare to previous years, I plan to use the [Civic Census Results 1958-2019]
 | Age 65+ | Count of residents 65 and older |
 | Voters | Count of voters |  
 
-This dataset will bring greater context to Calgary’s population change and constructions in each district for over half a century. The city’s growth is heavily tied to the energy and natural resources industry so it will be interesting to analyze how major boom and bust cycles affected development. This dataset has fewer ethical considerations as it is not as detailed, but careful consideratio will go into handling age and voting fields.
+This dataset will bring greater context to Calgary’s population change and constructions in each district for over half a century. The city’s growth is heavily tied to the energy and natural resources industry so it will be interesting to analyze how major boom and bust cycles affected development. This dataset has fewer ethical considerations as it is not as detailed, but careful consideration will go into handling age and voting fields.
 
 ## Dependencies
 
-The project does not depend on external parties, so I do not anticipate delays in its completion. However, in the event that I discover possible reidentification procedures in the data, I will refrain from posting such findings while I contact the City of Calgary to improve and handle the issues.
+The project does not depend on external parties, so I do not anticipate delays in its completion. However, in the event that I discover ethical issues in the data, I may refrain from posting such findings while I contact the City of Calgary to handle them.
 
 ## Research Questions
 
@@ -57,18 +57,18 @@ I am interested in general trends pertaining to the density of communities and t
 -	How do demographics differ by community?
 -	How has community density and population changed over time?
 
-I would like to explore and visualize this data geographically to answer these questions. From my own observations, I have hypothesized that certain communities are being rapidly built-up due to re-zoning, new transit lines or ring roads, or proximity to emerging industry districts. There may be resistance to zoning around affluent areas. I am also curious to see how single-family home construction is affected by the densification efforts of the city.
+I would like to explore and visualize this data geographically to answer these questions. From my own observations, I can hypothesize that certain communities are being rapidly built-up due to re-zoning, new transit lines/ring roads, or proximity to emerging industry districts. There may be resistance to zoning around affluent areas. I am also curious to see how single-family home construction is affected by the densification efforts of the city.
 
-From the time-series data I have hypotheses about construction during different boom and bust cycles relating to oil prices. Many Calgarians work in the natural resource industry so the growth of the city may be tied closely to it’s health.
+From the time-series data I have a hypothesis that construction in Calgary relates to boom and bust cycles in oil prices. Many Calgarians work in the natural resource industry so the growth of the city may be tied closely to it’s health.
 
 As this is a human-centered data analysis, I also have questions I would like to answer about the dataset itself:
 
 -	Could individual or family units data be compromised despite the aggregated nature of the data?
--	Could the inclusion of certain demographic data be used in negative ways?
+-	Could the inclusion of certain demographic data be used in unethical ways?
 
 The data contains counts of all kinds of people: Voters, preschool children, employed/unemployed people, homeowners, and even information on pets. The data is aggregated to a community level, but my hypothesis is that there are enough fields, and some districts are small enough, to present privacy risk. I will investigate if the publishing of this dataset could present an ethical problem and if it could be combined with other datasets for malicious purposes. If so, I will take directive to inform the City of Calgary without making public how this could be done.
 
-It is unclear whether the male/female columns represent biological sex or self-described gender. I do not plan to conduct heavy gender-difference research on this dataset but I will likely visualize the differences in counts across the districts.
+It is also unclear whether the male/female columns represent biological sex or self-described gender. I do not plan to conduct heavy gender-difference research on this dataset but I will likely visualize the differences in counts across the districts.
 
 ## Background and Related Work
 
@@ -76,10 +76,8 @@ It is unclear whether the male/female columns represent biological sex or self-d
 
 ## Methodology
 
-Analysis and presentation will both be done in an [IPython Jupyter notebook](https://jupyter.org). This format allows for accessible documentation and a step-by-step reproducible process for others to obtain my results. I plan to user [Pandas](https://pandas.pydata.org) for data cleaning and [matplotlib](https://matplotlib.org) for visualization. These tools are commonly used and have BSD licenses permitting free, unlimited redistribution. 
+Analysis and presentation will both be done in an [IPython Jupyter notebook](https://jupyter.org). This format allows for accessible documentation and a step-by-step reproducible process for others to obtain my results. I plan to user [Pandas](https://pandas.pydata.org) for data cleaning and [matplotlib](https://matplotlib.org) for visualization. These tools are commonly known in the data science community and have BSD licenses permitting free, unlimited redistribution. 
 
-For geographic visualization I plan to use the [folium](https://python-visualization.github.io/folium/) package. This is a powerful and interactive visualizing tool released under MIT license that I have used in the past. It can make intuitive and beautiful visualizations in-line in a jupyter notebook that allow users to explore beyond what findings I come up with. I plan to use several choropleth maps that use shading and coloring to indicate differences in numbers. 
+For geographic visualization I plan to use the [folium](https://python-visualization.github.io/folium/) package. This is a powerful and interactive visualizing tool released under an MIT license that I have used in the past. It can make intuitive and beautiful visualizations in-line in a Jupyter notebook, allowing users to explore beyond the findings I come up with. I plan to use several choropleth maps that use shading and coloring to indicate differences in numbers. 
 
-For comparing numbers between communities and years, I will be using different tests for statistical significance. Chi-squared test is used to compare frequencies of binary data points such as home ownership. T-tests are used to compare if the means of two groups are statistically different. This would be used is situations like comparing different years of data to see if population has increased more in one district than another.
-
-
+For comparing numbers between communities and years, I will be using different tests for statistical significance. Chi-squared tests are used to compare frequencies of binary data points such as home ownership. T-tests are used to compare if the means of two groups are statistically different. This would be used is situations like comparing different years of data to see if population has increased more in one district than another. Statistical significance is important to consider before drawing any conclusions comparing multiple groups.
