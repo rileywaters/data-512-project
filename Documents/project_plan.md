@@ -51,11 +51,11 @@ The project does not depend on external parties, so I do not anticipate delays i
 
 I am interested in general trends pertaining to the density of communities and the people living there. Below are some of my questions:
 
--	How do construction trends differ by community?
--	What construction trends are occurring on the city-level?
--	What vacancy trends are there across communities?
--	How do demographics differ by community?
--	How has community density and population changed over time?
+-	_How do construction trends differ by community?
+-	_What construction trends are occurring on the city-level?
+-	_What vacancy trends are there across communities?
+-	_How do demographics differ by community?
+-	_How has community density and population changed over time?
 
 I would like to explore and visualize this data geographically to answer these questions. From my own observations, I can hypothesize that certain communities are being rapidly built-up due to re-zoning, new transit lines/ring roads, or proximity to emerging industry districts. There may be resistance to zoning around affluent areas. I am also curious to see how single-family home construction is affected by the densification efforts of the city.
 
@@ -63,8 +63,8 @@ From the time-series data I have a hypothesis that construction in Calgary relat
 
 As this is a human-centered data analysis, I also have questions I would like to answer about the dataset itself:
 
--	Could individual or family units data be compromised despite the aggregated nature of the data?
--	Could the inclusion of certain demographic data be used in unethical ways?
+-	_Could individual or family units data be compromised despite the aggregated nature of the data?
+-	_Could the inclusion of certain demographic data be used in unethical ways?
 
 The data contains counts of all kinds of people: Voters, preschool children, employed/unemployed people, homeowners, and even information on pets. The data is aggregated to a community level, but my hypothesis is that there are enough fields, and some districts are small enough, to present privacy risk. I will investigate if the publishing of this dataset could present an ethical problem and if it could be combined with other datasets for malicious purposes. If so, I will take directive to inform the City of Calgary without making public how this could be done.
 
@@ -80,8 +80,8 @@ A study on urban sprawl in Toronto found that “most households living in highe
 
 The open data initiative in Calgary is quite new so there has not been much related work using the same data as me. I did find one independent data analyst, Willem Klumpenhouwer, who has used related data sets to [create interactive visualizations]( https://www.klumpentown.com/tfc/calgary) on transit times in Calgary. The 2019 census data was only launched in September, so I will keep an eye out for other work that may be done by independent analysts or news sources.
 
-•	Grant, Jill. "Exploring the influence of new urbanism in community planning practice." Journal of architectural and planning research (2003): 234-253.
-•	Skaburskis, Andrejs. "New urbanism and sprawl: A Toronto case study." Journal of Planning Education and Research 25.3 (2006): 233-248.
+-	Grant, Jill. "Exploring the influence of new urbanism in community planning practice." Journal of architectural and planning research (2003): 234-253.
+-	Skaburskis, Andrejs. "New urbanism and sprawl: A Toronto case study." Journal of Planning Education and Research 25.3 (2006): 233-248.
 
 
 ## Methodology
