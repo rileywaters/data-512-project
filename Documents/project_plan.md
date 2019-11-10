@@ -72,7 +72,17 @@ It is also unclear whether the male/female columns represent biological sex or s
 
 ## Background and Related Work
 
-(section coming soon)
+“[New Urbanism](https://www.cnu.org/resources/what-new-urbanism)” is a city planning approach that focusses on human-scaled urban design. It promotes walkable districts with dense housing and prioritizes mass transit over private cars. Many North American such as [Portland Oregon] (https://oregonhistoryproject.org/narratives/commerce-climate-and-community-a-history-of-portland-and-its-people/portland-neighborhoods/renewing-the-public-space-and-the-new-urbanism/) have been expanding with this approach for decades, but the concept has only recently taken hold in Calgary. 
+
+One research study found that “While land use practices respond slightly to shifting paradigms in community planning theory in rapidly growing communities, in slower-growth regions, conventional development strategies reflect political and economic priorities” (Grant 2003). This may lend credence to my hypothesis that during ‘bust’ cycles, Calgary relies more on conventional, car-based city planning.
+
+A study on urban sprawl in Toronto found that “most households living in higher-density building types plan to eventually move to detached houses” and so if new urbanism were to substitute conventional development, “its projects will have to have a much larger proportion of single-family detached houses than Cornell’s (another research study) 37 percent.” (Skaburskis 2006). This informs my understanding of densification going into this analysis. High-density development does not necessarily replace suburban development, but I may expect new apartment buildings to appeal to young professionals who eventually move to lower-density communities.
+
+The open data initiative in Calgary is quite new so there has not been much related work using the same data as me. I did find one independent data analyst, Willem Klumpenhouwer, who has used related data sets to [create interactive visualizations]( https://www.klumpentown.com/tfc/calgary ) on transit times in Calgary. The 2019 census data was only launched in September, so I will keep an eye out for other work that may be done by independent analysts or news sources.
+
+•	Grant, Jill. "Exploring the influence of new urbanism in community planning practice." Journal of architectural and planning research (2003): 234-253.
+•	Skaburskis, Andrejs. "New urbanism and sprawl: A Toronto case study." Journal of Planning Education and Research 25.3 (2006): 233-248.
+
 
 ## Methodology
 
