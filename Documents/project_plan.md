@@ -41,7 +41,7 @@ To compare to previous years, I plan to use the [Civic Census Results 1958-2019]
 | Age 65+ | Count of residents 65 and older |
 | Voters | Count of voters |  
 
-This dataset will bring greater context to Calgary’s population change and constructions in each district for over half a century. The city’s growth is heavily tied to the energy and natural resources industry so it will be interesting to analyze how major boom and bust cycles affected development. This dataset has fewer ethical considerations as it is not as detailed.
+This dataset will bring greater context to Calgary’s population change and constructions in each district for over half a century. The city’s growth is heavily tied to the energy and natural resources industry so it will be interesting to analyze how major boom and bust cycles affected development. This dataset has fewer ethical considerations as it is not as detailed, but careful consideratio will go into handling age and voting fields.
 
 ## Dependencies
 
