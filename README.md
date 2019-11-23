@@ -1,5 +1,5 @@
 # DATA 512 Final Project
-This repository contains the materials used in my final project for Human-Centered Data Science, Fall 2019. All of my code is released under MIT license.
+This repository contains the materials used in my final project for Human-Centered Data Science, Fall 2019. All of my code is released under MIT license. [Course wiki can be found here](https://wiki.communitydata.science/Human_Centered_Data_Science_(Fall_2019))
 
 # Abstract
 I analyzed City of Calgary Census data to better understand high-density housing patterns, demographics, and changes in the city over time. I found that new outlying communities are leading the way in high-density housing construction despite being far from the city code. I also found that that Calgary's population and building construction patterns are closely tied to the natural reasource economy. Few discoveries were made with age demographics, but more demographic data will be added in the next census which will pave the way for exciting new discoveries.
